@@ -17,7 +17,7 @@ This project demonstrates how to use the Hugging Face API to integrate powerful 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/Chatgpt-API.git
+    git clone https://github.com/lvnh2003/Chatgpt-API.git
     cd Chatgpt-API
     ```
 
@@ -27,27 +27,10 @@ This project demonstrates how to use the Hugging Face API to integrate powerful 
     ```
 
 ## Usage
-
-1. Set up your Hugging Face API token:
-    ```bash
-    export HF_API_TOKEN=your_huggingface_api_token
-    ```
-
-2. Run the script:
+Run the script:
     ```bash
     python main.py
     ```
-
-## Example
-
-Here’s an example of using the Hugging Face API for text generation:
-```python
-from transformers import pipeline
-
-generator = pipeline("text-generation", model="gpt2")
-result = generator("Once upon a time", max_length=50, num_return_sequences=1)
-print(result)
-```
 
 ## Contributing
 
